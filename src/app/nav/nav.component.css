@@ -1,0 +1,41 @@
+nav{
+	width: auto;
+	background: lightgrey;
+	height: 20px;
+	padding: 10px 20px;
+	position: relative;
+	text-align: center;
+}
+nav ul{
+	list-style-type: none;
+	max-width: 400px;
+	height: 35px;
+	margin: 0 auto;
+}
+nav li,li a{
+	width: auto;
+	padding: 0 10px;
+	float: left;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+nav li a:hover{
+	text-decoration: underline;
+}
+
+@media only screen and (max-device-width: 900px){
+	nav{
+		height: 160px;
+		font-size: 30px;
+	}
+	nav ul{
+		max-width: 50%;
+	}
+	nav ul li{
+		text-align: center;
+		width: 80%;
+		clear: both;
+		height: 40px;
+	}
+}

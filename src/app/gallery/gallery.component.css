@@ -1,0 +1,30 @@
+/*workgallery*/
+ul#wSlider li{
+	list-style-type: none;
+	height: 150px;
+	width: 22%;
+	float: left;
+	margin: 10px;
+}
+.prev{
+	max-height: 150px;
+	max-width: 100%;
+	margin:  0 auto;
+}
+#gallery1,gallery2,gallery3,gallery4,gallery5,gallery6,gallery7,gallery8,gallery9,gallery10{
+	max-width: 90%;
+	max-height: 90%;
+}
+.popout img{
+	max-width: 600px;
+	max-height:  600px;
+}
+.hide{
+	display: none;
+}
+
+@media only screen and (max-device-width: 900px){
+	#gallery{
+		height: 120px;
+	}
+}

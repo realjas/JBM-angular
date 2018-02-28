@@ -1,0 +1,42 @@
+.half{
+	width: 40%;
+	height: 240px;
+	min-height: 100px;
+	float: left;
+	padding: 20px 40px;
+	text-align: center;
+}
+.half p{
+	text-align: center; /*justify*/
+}
+.half ul{
+	width: 40%;
+	margin: 0 auto;
+	text-align: left;
+}
+.icon{
+	/*width: 80%;*/
+	height: 100px;
+}
+.break-img{
+	height: 30px;
+}
+.separator{
+	height: 30px;
+	min-height: 30px;
+}
+
+@media only screen and (max-device-width: 900px){
+	.half{
+		clear: both;
+		width: 80%;
+		font-size: large;
+		height: auto;
+	}
+	.break-img, .separator{
+		display: none;
+		height: 0px;
+		padding: 0px;
+		margin: 0px;
+	}
+}

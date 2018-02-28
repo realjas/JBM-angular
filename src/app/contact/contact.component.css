@@ -1,0 +1,55 @@
+.half{
+	width: 40%;
+	height: 240px;
+	min-height: 100px;
+	float: left;
+	padding: 20px 40px;
+	text-align: center;
+}
+.half p{
+	text-align: center; /*justify*/
+}
+.half ul{
+	width: 40%;
+	margin: 0 auto;
+	text-align: left;
+}
+.icon{
+	/*width: 80%;*/
+	height: 100px;
+}
+.break-img{
+	height: 30px;
+}
+.separator{
+	height: 30px;
+	min-height: 30px;
+}
+.button{
+	display: none;
+}
+
+@media only screen and (max-device-width: 900px){
+	.half{
+		clear: both;
+		width: 80%;
+		font-size: large;
+		height: auto;
+	}
+	.separator{
+		height: auto;
+	}
+	.break-img{
+		display: none;
+	}
+	.button{
+		width: 80%;
+		padding: 10px 20px;
+		background-color: #006FB4;
+		color: white;
+		text-decoration: none;
+		display: block;
+		margin: 10px auto;
+		border-radius: 5px;
+	}
+}
